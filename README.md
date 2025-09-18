@@ -7,8 +7,8 @@ This is a bare-bones landing page existing largely to faciliate my other uses of
 
 I also host other websites related to my GitHub-hosted projects.
 
- - [The documentation for my `pdemtools` Python pacakge can be found here](https://pdemtools.readthedocs.io/)
- - [My guide on getting set up using Python for geospatial programming at Durham University can be found here](https://trchudley.github.io/geospatial-python-durham)
+ - [The documentation for my `pdemtools` Python pacakge can be found here.](https://pdemtools.readthedocs.io/)
+ - [My guide on getting set up using Python for geospatial programming at Durham University can be found here.](https://trchudley.github.io/geospatial-python-durham)
 
 ---
 
