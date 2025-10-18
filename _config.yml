@@ -11,7 +11,7 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
+remote_theme           : "mmistakes/minimal-mistakes@4.27.3"
 minimal_mistakes_skin    : "contrast" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -19,14 +19,14 @@ locale                   : "en-GB"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "Tom Chudley"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : # Glaciologist # site tagline that appears below site title in masthead
 name                     : "Tom Chudley"
-description              : "Academic website."
+description              : "Academic website of Tom Chudley."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : trchudley/trchudley.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : # assets/images/logo.jpg # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
@@ -67,7 +67,7 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-  hide                   : # true, false (default)
+  hide                   : true # RSS link in footer: true, false (default)
 search                   : # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
@@ -105,40 +105,41 @@ social:
 
 # Analytics
 analytics:
-  provider               : # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          :
-    anonymize_ip         : # true, false (default)
+    tracking_id          : G-R95JW512J1
+    anonymize_ip         : true # true, false (default) -- true to be GDPR compliant
 
+# Cookie consent plugin following https://peateasea.de/enabling-cookie-consent-with-jekyll-minimal-mistakes/
+after_footer_scripts     :
+  - /assets/js/cookie-consent.js
 
 # Site Author
 author:
   name             : "Tom Chudley"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "assets/images/logo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Glaciologist and Geospatial Data Scientist."
-  location         : "Durham"
+  location         : 
   email            : thomas.r.chudley@durham.ac.uk
   links:
-    - label: "Sea Level, Ice and Climate Cluster, Durham University"
+    - label: "Durham University"
       icon: "fas fa-fw fa-university"
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:thomas.r.chudley@durham.ac.uk"
-    - label: "Google Scholar"
-      icon: "fab fa-fw fa-google-scholar"
-      url: "https://scholar.google.co.uk/citations?user=5ydGTN0AAAAJ"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/trchudley"
+      url: "https://www.durham.ac.uk/staff/thomas-r-chudley/"
+    # - label: "Email"
+    #   icon: "fas fa-fw fa-envelope-square"
+    #   url: "mailto:thomas.r.chudley@durham.ac.uk"
     - label: "Bluesky"
       icon: "fab fa-fw fa-bluesky"
       url: "https://bsky.app/profile/tomchudley.bsky.social"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/trchudley"
+    - label: "Google Scholar"
+      icon: "fab fa-fw fa-google-scholar"
+      url: "https://scholar.google.co.uk/citations?user=5ydGTN0AAAAJ"
     - label: "ORCID"
       icon: "fab fa-fw fa-orcid"
       url: "https://orcid.org/0000-0001-8547-1132"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://www.durham.ac.uk/staff/thomas-r-chudley/"
 
 # Site Footer
 footer:
@@ -159,6 +160,8 @@ footer:
 include:
   - .htaccess
   - _pages
+  - assets/images
+  - assets/images/header
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
