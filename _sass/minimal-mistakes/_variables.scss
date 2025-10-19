@@ -59,7 +59,7 @@ $default-monospace: Monaco, Consolas, "Lucida Console", monospace;
 /* Emoji native from modern font stack - add to the end of the font-face for native emojis */
 $emoji-native: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 
-/* system typefaces */
+/* system typefaces - CHANGE THESE TO CHANGE THE FONTS */
 $serif: $default-serif !default;
 $sans-serif: $default-sans-serif !default;
 $sans-serif-narrow: $sans-serif !default;

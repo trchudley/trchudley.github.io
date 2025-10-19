@@ -17,6 +17,50 @@ gallery:
     image_path: /assets/images/research/crev2.jpg
     alt: "Crevasses, from a UAV"
     title: "Crevasse 2"
+  
+feature_row_1:
+  - image_path: /assets/images/research/square-uav.png
+    alt: "UAV launch on an ice sheet"
+    title: "UAVs and Photogrammetry"
+    excerpt: "Producing accurate georeferenced models from UAV photogrammetry is difficult in glaciological applications, where implementing ground control can be hazardous. In order to aid our work at Store Glacier in Greenland, I developed a low-cost, custom built unmanned system that utilised on-board GPS post-processing in order to produce accurate glacier velocity fields even on an inland ice sheet.
+    <br />
+    <br />
+    [_Cryosphere_ paper](https://doi.org/10.1038/s41467-023-37764-7f){: .btn .btn--primary .btn--large}
+    "
+
+feature_row_2:
+  - image_path: /assets/images/research/square-ponding.jpg
+    alt: "Ponded crevasses, from UAV"
+    title: "Controls on crevasse ponding"
+    excerpt: "Surface crevasses transfer nearly half of all of Greenland's meltwater to the bed, yet is poorly understood. Using large-scale satellite analysis, I found that ponded crevasses exist in regions of compressive surface stress which restrict drainage into the wider surface hydrological system. Differing drainage processes in controlled by stress regimes may have distinct consequences for subglacial drainage and the heating of the ice sheet due to energy release during meltwater refreezing.
+    <br />
+    <br />
+    [_JGR: Earth Surface_ paper](https://doi.org/10.1029/2021JF006287){: .btn .btn--primary .btn--large}
+    "
+
+feature_row_3:
+  - image_path: /assets/images/research/square-drainage.jpg
+    alt: "Lake drainage from UAV"
+    title: "Lake drainage at a fast-flowing glacier"
+    excerpt: "Supraglacial lake drainage is a critical component of Greenland's hydrological system, but all prior research occurred at slow-flowing, land-terminating glaciers. I used novel geophysical methods - including UAVs, GNSS, and seismometers - to examine the causes and consequences of a drainage at a fast-flowing outlet where ice moves >600 metres a year, finding unique processes occurring in this dynamic context.
+    <br />
+    <br />
+    [_PNAS_ paper](https://doi.org/10.1073/pnas.1913685116){: .btn .btn--primary .btn--large}
+    [Press Release](https://www.cam.ac.uk/stories/greenlandicesheet){: .btn .btn--info .btn--large}
+    "
+
+feature_row_4:
+  - image_path: /assets/images/research/square-retreat.gif
+    alt: "Animation of glacier retreat in satellite imagery"
+    title: "Rapid changes forced by ocean warming"
+    excerpt: "From 2018-2021, K.I.V Steenstrups Nordre Bræ in Southeast Greenland retreated ~7 km, thinned ~20%, doubled in discharge, and accelerated ~300% -- a rate of change unprecedented amongst Greenland’s glaciers. The glacier responded to a >2 °C anomaly in ocean temperatures, highlighting that even glaciers thought to be stable are vulnerable to sudden and rapid retreat from ocean forcing.
+    <br />
+    <br />
+    [_Nature Communications_ paper](https://doi.org/10.1038/s41467-023-37764-7){: .btn .btn--primary .btn--large}
+    [Press Release](https://news.osu.edu/a-once-stable-glacier-in-greenland-is-now-rapidly-disappearing){: .btn .btn--info .btn--large}
+    "
+
+
 ---
 
 __I am a glaciologist interested in using satellite remote sensing, fieldwork, and numerical modelling to investigate hydrology-dynamic and ice-ocean interactions in the global cryosphere.__
@@ -43,6 +87,19 @@ Knowing where crevasses drain begins by knowing where crevasses are. I have deve
 ![image-center](/assets/images/research/crevdetect.png){: .align-center width="600px"}
 
 I am using deep learning approaches detect water-filled crevasses that are otherwise challenging to detect in medium-resolution Sentinel-2 imagery. This allows for temporally deep time stacks of crevasse drainage behaviour to be automatically extracted at regional scales. With these datasets, alongside public datasets of climate and ice dynamics, I am exploring the dynamic controls on crevasse hydrological behaviour. These controls will be parameterised within coupled models of ice sheet hydrology-dynamics in order to quantify the influence of crevasse hydrology on the future of the Greenland Ice Sheet.
+
+# Research Highlights
+
+Some of previous research highlights are summarised below.
+
+{% include feature_row id="feature_row_4" type="left" %}
+
+{% include feature_row id="feature_row_3" type="left" %}
+
+{% include feature_row id="feature_row_2" type="left" %}
+
+{% include feature_row id="feature_row_1" type="left" %}
+
 
 <!-- 
 

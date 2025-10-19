@@ -10,15 +10,16 @@ window.cookieconsent.initialise({
       "background": "#aa0000"
     }
   },
-  revokable:true,
   onStatusChange: function(status) {
     console.log(this.hasConsented() ?
     'enable cookies' : 'disable cookies');
   },
-  expiryDays: 30,
+  "expiryDays": 30,
   "type": "opt-in",
+  "position": "bottom-right",
+  "revokable":true,
   "content": {
-    "message": "This site uses cookies from Google to deliver its services and to analyze traffic.  By clicking accept, you agree to its use of cookies.",
+    "message": "This site uses cookies to deliver its services and to analyze traffic.  By clicking accept, you agree to its use of cookies.",
     "allow": 'Allow',
     "deny": 'Decline',
     "href": "/terms"
@@ -56,7 +57,7 @@ window.cookieconsent.initialise({
     if (type == 'opt-out') {
       // enable cookies
       loadGAonConsent();
-      loadDisqusOnConsent();
+      // loadDisqusOnConsent();
     }
   }
 });
