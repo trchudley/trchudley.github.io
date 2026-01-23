@@ -123,7 +123,7 @@ author:
   avatar           : "assets/images/logo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Glaciologist and Geospatial Data Scientist."
   location         : 
-  email            : thomas.r.chudley@durham.ac.uk
+  email            : tom.chudley@bristol.ac.uk
   links:
     - label: "University of Bristol"
       icon: "fas fa-fw fa-university"
