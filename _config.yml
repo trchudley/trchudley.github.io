@@ -125,9 +125,9 @@ author:
   location         : 
   email            : thomas.r.chudley@durham.ac.uk
   links:
-    - label: "Durham University"
+    - label: "University of Bristol"
       icon: "fas fa-fw fa-university"
-      url: "https://www.durham.ac.uk/staff/thomas-r-chudley/"
+      url: "https://www.bristol.ac.uk/people/person/Tom-Chudley-f5b12306-221d-46bc-ac23-29c2341b5613/"
     # - label: "Email"
     #   icon: "fas fa-fw fa-envelope-square"
     #   url: "mailto:thomas.r.chudley@durham.ac.uk"
@@ -149,8 +149,8 @@ footer:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:thomas.r.chudley@durham.ac.uk"
-    - label: "Bluseky"
+      url: "mailto:tom.chudley@bristol.ac.uk"
+    - label: "Bluesky"
       icon: "fab fa-fw fa-bluesky"
       url: "https://bsky.app/profile/tomchudley.bsky.social"
     - label: "GitHub"

@@ -46,7 +46,7 @@ gallery:
     title: "CNN"
 ---
 
-I'm a glaciologist, environmental scientist, and geospatial data scientist with experience in using novel fieldwork and satellite Earth observation methods to assess the impact of climate change on the world's ice - and in particular the Greenland Ice Sheet, which is currently contributing more to sea level than any other body of ice on the planet. Following a PhD at the University of Cambridge and a postdoctoral research position at the Ohio State University, I am currently a Leverhulme Early Career Research Fellow at Durham University. I have published academic papers in leading international journals including PNAS, Nature Geoscience, and Science Advances.
+I'm a glaciologist, environmental scientist, and geospatial data scientist with experience in using novel fieldwork and satellite Earth observation methods to assess the impact of climate change on the world's ice - and in particular the Greenland Ice Sheet, which is currently contributing more to sea level than any other body of ice on the planet. Following a PhD at the University of Cambridge, a postdoctoral research position at the Ohio State University, and a Leverhulme Early Career Research Fellowship at Durham University, I am Lecture in Glaciology at the University of Bristol. I have published academic papers in leading international journals including PNAS, Nature Geoscience, and Science Advances.
 
 My work has been featured by outlets including The Washington Post, The Times, and Scientific American and I regularly consult on documentary productions for producers that have included the BBC Natural History Unit and the Korean Broadcasting Service.
 
