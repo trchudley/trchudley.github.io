@@ -56,7 +56,9 @@ It has seen use as part of large-scale physical studies of the Greenland Ice She
 
 ## Other
 
-### Guide to Geospatial Python
+### Guide to Geospatial Python for Glaciology
 
-[This Jupyter Book](https://trchudley.github.io/geospatial-python-durham/) is designed to get beginners up and running with using Python for geospatial programming tasks. It is aimed at colleagues, students, and collaborators -- particularly within my own department -- but may be of use to broader audience.
+![image-right](/assets/images/softwaredata/geospatialpython.png){: .align-right width="250px"}
+
+[This Jupyter Book](https://trchudley.github.io/geospatial-python-glaciology/) is designed to get beginners up and running with using Python for geospatial programming tasks. It is aimed at my colleagues, students, and collaborators within glaciology, but has found use with a broader audience.
 
