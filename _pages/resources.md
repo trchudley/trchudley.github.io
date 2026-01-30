@@ -40,6 +40,18 @@ A software paper [has been published](https://joss.theoj.org/papers/2a10e67d2709
 
 The software and explanatory notebooks are [available on GitHub](github.com/trchudley/crevdem).
 
+## Resources
+
+### Guide to Geospatial Python for Glaciology
+
+![image-right](/assets/images/softwaredata/geospatialpython.png){: .align-right width="250px"}
+
+[This Jupyter Book](https://trchudley.github.io/geospatial-python-glaciology/) is designed to get beginners up and running with using Python for geospatial programming tasks. It is aimed at my colleagues, students, and collaborators within glaciology, but has found use with a broader audience.
+
+### Greenland Ice Sheet Discharge Explorer
+
+[This online widget](https://trchudley.github.io/greenland-discharge-explorer/) visualises the 'living dataset' of Greenland's ice charge hosted by GEUS ([Mankoff _et al._ 2020](https://dataverse.geus.dk/dataset.xhtml?persistentId=doi:10.22008/promice/data/ice_discharge/d/v02)). Users can view time-series datasets for the whole ice sheet as well as individual regions and sectors, as well as download CSV files for their own use.
+
 ## Data
 
 ### Greenland Crevasse Map
@@ -53,12 +65,3 @@ This dataset expands the crevasse mapping technique outlined in [Chudley et al. 
 [It is available to download from Zenodo.](https://www.google.com/url?q=https%3A%2F%2Fdoi.org%2F10.5281%2Fzenodo.6779088&sa=D)
 
 It has seen use as part of large-scale physical studies of the Greenland Ice Sheet, including [Christmann et al. (2021)](https://www.google.com/url?q=https%3A%2F%2Fdoi.org%2F10.1038%2Fs43247-021-00296-3&sa=D) and [Grinsted et al. (2024)](https://www.google.com/url?q=https%3A%2F%2Fdoi.org%2F10.5194%2Ftc-18-1947-2024&sa=D).
-
-## Other
-
-### Guide to Geospatial Python for Glaciology
-
-![image-right](/assets/images/softwaredata/geospatialpython.png){: .align-right width="250px"}
-
-[This Jupyter Book](https://trchudley.github.io/geospatial-python-glaciology/) is designed to get beginners up and running with using Python for geospatial programming tasks. It is aimed at my colleagues, students, and collaborators within glaciology, but has found use with a broader audience.
-
