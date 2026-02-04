@@ -63,13 +63,22 @@ feature_row_4:
 
 ---
 
-__I am a glaciologist interested in using satellite remote sensing, fieldwork, and numerical modelling to investigate hydrology-dynamic and ice-ocean interactions in the global cryosphere.__
+__I am a glaciologist interested in using satellite remote sensing, fieldwork, and numerical modelling to investigate hydrology-dynamic and ice-ocean interactions in glaciers and ice sheets.__
 
-Ice discharge into the ocean (i.e. iceberg calving) is a key contributor to sea level rise, making up approximately half of sea level contribution from the Greenland Ice Sheet and representing a key future concern in the Antarctic Ice Sheet. Discharge can be accelerated or suppressed by the influence of surface meltwater as it drains through the ice sheet, as well as the thermal forcing from the ocean. However, our observations and understanding of the interactions between these processes are poor, making predicting the future losses from the ice sheets highly uncertain. A better understanding of future loss is essential when considering the enormous societal investment required to mitigate the effects of sea level rise on communities living in affected low-lying coastal regions, which could exceed 10% of the global population by the end of the 21st century.
+Ice discharge into the ocean (i.e. iceberg calving) is a key contributor to sea level rise, making up approximately half of sea level rise contribution from the Greenland Ice Sheet and representing a major future concern in the Antarctic Ice Sheet. Discharge can be accelerated or suppressed by the influence of surface meltwater as it drains through the ice sheet, as well as the thermal forcing from the ocean. However, our observations of - and our ability to model - the interactions between these processes remain limited, leading to significant uncertainty in projections of future ice‑sheet change. Reducing this uncertainty is essential when considering considering the enormous societal investment required to mitigate the effects of sea level rise on communities living in affected low-lying coastal regions, which may affect more than 10% of the global population by the end of the 21st century.
+ 
+Some of my specific research interests include the following:
 
-I use a combination of methods - including satellite remote sensing, high resolution topographic data, ground-based geophysical methods, and numerical modelling - to monitor how glacial dynamics are changing and understand the reasons why, with the aim of better understanding how the ice sheet will continue to evolve in the 21st century and beyond.
+ - Developing ‘big data’ Earth‑observation methods, including deep‑learning approaches for large‑scale, automated analysis.
+ - Understanding the coupling between ice fracture (i.e. crevasses), meltwater pathways, and ice dynamics.
+ - Building open‑source tools that make glaciological methods more accessible and scalable.
+ - Investigating the drivers of outlet‑glacier sensitivity to ocean forcing.
+ - Using high‑resolution digital elevation models (DEMs) to monitor changes in ice‑sheet geometry and surface processes.
+ - Integrating observations and theory to develop practical parameterisations of glacier hydrology within large‑scale ice‑sheet models.
 
-# Current Research Projects
+By monitoring how glacier and ice‑sheet dynamics are evolving - and uncovering the processes driving those changes - I aim to improve our understanding of how these systems will respond to future climate forcing through the 21st century and beyond.
+
+# Research Projects
 
 ## How do crevasses transfer water to the bed of ice sheets?
 
@@ -77,12 +86,12 @@ __2023-2026 \| Leverhulme Trust__
 
 {% include gallery %}
 
-My current research fellowship aims to assess the influence of crevasse hydrology on the dynamics of the Greenland Ice Sheet (GrIS). Half of all meltwater is delivered to the bed of the GrIS via crevasses, and we are increasingly aware that crevasses can deliver water to the ice sheet in diverse ways, from slow and inefficient drainage via fracture networks through to discrete rapid drainage events. However, due to a paucity of observations on where, why, and how crevasses drain, these important processes have yet to be parameterised in ice sheet models, and the vast majority of hydrological models neglect to include crevasses at all.
+My Leverhulme early career research fellowship aims to assess the influence of crevasse hydrology on the dynamics of the Greenland Ice Sheet (GrIS). Half of all meltwater is delivered to the bed of the GrIS via crevasses, and we are increasingly aware that crevasses can deliver water to the ice sheet in diverse ways, from slow and inefficient drainage via fracture networks through to discrete rapid drainage events. However, due to a paucity of observations on where, why, and how crevasses drain, these important processes have yet to be parameterised in ice sheet models, and the vast majority of hydrological models neglect to include crevasses at all.
 
 ![image-center](/assets/images/research/crevcompare.png){: .align-center width="700px"}
 
 
-Knowing where crevasses drain begins by knowing where crevasses are. I have developed a new workflow that takes advantage of high-resolution digital elevation models (DEMs) to generate large-scale, multitemporal 3D observations of crevasse geometry (image above). Using this technique, we have mapped crevasses across the whole of the Greenland Ice Sheet, showing for the first time how crevasses are evolving as the ice sheet accelerates in response to climate change ([Chudley _et al._, 2025, _Nat. Geosci._](https://doi.org/10.1038/s41561-024-01636-6)). Alongside this project, I have released [public Python tools](https://pdemtools.readthedocs.io/) for management of ArcticDEM and Reference Elevation Model of Antarctica (REMA) data, making large-scale DEM analysis more accessible for glaciologists and other polar scientists ([Chudley and Howat, 2024, _Journal of Open Source Software_](https://doi.org/10.21105/joss.07149)).
+Knowing where crevasses drain begins by knowing where crevasses _are_. I have developed a new workflow that takes advantage of high-resolution digital elevation models (DEMs) to generate large-scale, multitemporal 3D observations of crevasse geometry (image above). Using this technique, we have mapped crevasses across the whole of the Greenland Ice Sheet, showing for the first time how crevasses are evolving as the ice sheet accelerates in response to climate change ([Chudley _et al._, 2025, _Nat. Geosci._](https://doi.org/10.1038/s41561-024-01636-6)). Alongside this project, I have released [public Python tools](https://pdemtools.readthedocs.io/) for management of ArcticDEM and Reference Elevation Model of Antarctica (REMA) data, making large-scale DEM analysis more accessible for glaciologists and other polar scientists ([Chudley and Howat, 2024, _Journal of Open Source Software_](https://doi.org/10.21105/joss.07149)).
 
 ![image-center](/assets/images/research/crevdetect.png){: .align-center width="600px"}
 
