@@ -1,0 +1,36 @@
+# main links
+main:
+
+  # - title: "Research"
+  #   url: "#"
+  #   sublinks:
+  - title: "Research"
+    url: /research/
+  - title: "Publications"
+    url: /publications/
+
+  # - title: "Teaching"
+  #   url: /teaching/
+
+  # - title: "Resources"
+  #   url: "#"
+  #   sublinks:
+  # - title: "Software/Data"
+  #   url: /softwaredata/
+  - title: "Resources"
+    url: /resources/
+
+  # - title: "Engagement"
+  #   url: "#"
+  #   sublinks:
+  - title: "Press"
+    url: /press/
+  - title: "Outreach"
+    url: /outreach/
+
+  - title: "CV"
+    url: /cv/
+  
+  # - title: "Geospatial Python Guide"
+  #   url: https://trchudley.github.io/geospatial-python-durham/
+
